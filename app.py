@@ -5,7 +5,6 @@ from groq import Groq
 import os
 #os.environ['GROQ_API_KEY'] = os.getenv("groq")
 
-
 app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
